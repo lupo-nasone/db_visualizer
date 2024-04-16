@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesso al Database</title>
+</head>
+<body>
+
+    <h2>Accesso al Database</h2>
+    <form action="confLogin.php" method="post">
+        <label for="servername">Nome server:</label>
+        <input type="text" id="servername" name="servername" required><br><br>
+
+        <label for="username">Nome utente:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" ><br><br>
+
+        <label for="database">Nome database:</label>
+        <input type="text" id="database" name="database" required><br><br>
+
+        <input type="submit" value="Connetti">
+    </form>
+
+</body>
+</html>
